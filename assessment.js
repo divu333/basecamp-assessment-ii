@@ -25,13 +25,15 @@ message["text"] = "some text";
 
 // CODE HERE
 var adjustCount = {
-  upVote:function(num1){
-    num1+=1;
-  },
-  downVote:function(num2){
-    num2-=1;
+  upVote:function(num){
+    num+=1;
   }
-}
+  downVote:function(num){
+    num-=1;
+  }
+};
+adjustCount.upVote(5);
+adjustCount.downVote(6);
 // #5 Create an array called 'myFriends' with four of your friends names
 
 // CODE HERE
